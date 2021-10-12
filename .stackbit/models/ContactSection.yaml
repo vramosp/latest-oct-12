@@ -39,12 +39,6 @@ fields:
       - label: Contact form with feature on the right
         value: variant-b
     default: variant-b
-  - type: model
-    name: badge
-    label: Badge
-    group: styles
-    models:
-      - Badge
   - type: string
     name: title
     label: Title
@@ -95,3 +89,9 @@ fields:
       type: ImageBlock
       url: /images/contact.png
       altText: Contact form image
+  - type: model
+    name: badge
+    label: Badge
+    group: styles
+    models:
+      - Badge
